@@ -35,5 +35,5 @@ def show_all_runs(folder='runs20'):
 
 
 if __name__ == '__main__':
-    show_all_runs('runs20')
- #   show_all_runs('runs30')
+    #show_all_runs('runs20')
+    show_all_runs('runs30')
