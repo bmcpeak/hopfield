@@ -89,7 +89,7 @@ def visualize_retrieval(patterns, W, N, interval=10, noise_level=0.5):
 
 
 if __name__ == '__main__':
-    from network import generate_network
+    from hopfield.network import generate_network
 
     patterns, W = generate_network(N=30, M=5, xi=2.0)
     visualize_retrieval(patterns, W, N=30, interval=5)

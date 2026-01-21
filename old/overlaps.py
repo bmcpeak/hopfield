@@ -9,7 +9,7 @@ def test_capacity(M, N, xi, c, noise_level=0.2):
         overlaps: array of length c*M, overlap with target after convergence
         cross_overlap: average |overlap| between distinct memories
     """
-    from network import generate_network
+    from hopfield.network import generate_network
 
     patterns, W = generate_network(N, M, xi)
     n_neurons = N * N
